@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rage & Romance</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main class="game-container">
+    <header class="game-header">
+      <h1>🎮 Rage & Romance</h1>
+      <p class="subtitle">Track the drama. Tally the love. Come back anytime to pick up where you left off.</p>
+    </header>
+
+    <!-- Player Name Entry -->
+    <section id="start-screen" class="screen-card active-screen">
+      <h2>Enter Players</h2>
+      <input type="text" id="playerOne" placeholder="Player 1 (You)" autocomplete="off" />
+      <input type="text" id="playerTwo" placeholder="Player 2 (Pookie)" autocomplete="off" />
+      <button id="startGame">Let the Games Begin</button>
+    </section>
+
+    <!-- Mood Selection -->
+    <section id="mood-screen" class="screen-card hidden">
+      <h2>What’s the vibe today?</h2>
+      <div class="mood-options">
+        <button class="mood-btn" data-mood="happy">😎 They Did Good</button>
+        <button class="mood-btn" data-mood="mad">😤 I'm Annoyed</button>
+      </div>
+    </section>
+
+    <!-- Intensity Selection -->
+    <section id="intensity-screen" class="screen-card hidden">
+      <h2 id="intensityPrompt">Rate the damage or delight</h2>
+      <input type="range" id="intensity" min="1" max="10" value="5" />
+      <p id="sliderLabel">Intensity: 5</p>
+      <input type="text" id="eventDesc" placeholder="What happened? (e.g., Forgot the date again 😑)" />
+      <button id="submitEvent">Log It</button>
+    </section>
+
+    <!-- Scoreboard -->
+    <section id="scoreboard-screen" class="screen-card hidden">
+      <h2>📊 Relationship Battle Log</h2>
+
+      <div class="dual-log">
+        <div class="log-column">
+          <h3 id="p1NameLog">Player 1</h3>
+          <table class="playerTable" id="p1Table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Event</th>
+                <th>Mood</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <div class="log-column">
+          <h3 id="p2NameLog">Player 2</h3>
+          <table class="playerTable" id="p2Table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Event</th>
+                <th>Mood</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="totals">
+        <p id="p1Score">Player 1: 0</p>
+        <p id="p2Score">Player 2: 0</p>
+      </div>
+
+      <div id="finalWinner" class="winnerBox hidden"></div>
+
+      <button id="addMore">Add Another Move</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
