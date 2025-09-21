@@ -1,4 +1,6 @@
- rage-romance
+RageRomance
+
+Link: https://anveshnaaa.github.io/rage-romance/
 
 Project Title: 
 Rage & Romance - A Gamified Relationship Tracker
@@ -33,5 +35,6 @@ Outcome:
 The project demonstrates both technical frontend skills and a strong sense of user experience design. It showcases my ability to turn creative concepts into functional web applications with clean code, modern styling, and persistent data handling.
 
 
+<img width="1440" height="857" alt="Screenshot 2025-09-21 at 1 05 52 AM" src="https://github.com/user-attachments/assets/fa37014f-ed4c-4023-ba0f-692d5cdd243a" />
 
 
