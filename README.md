@@ -1,17 +1,18 @@
-# rage-romance
+ rage-romance
 
-Project Title: Rage & Romance - A Gamified Relationship Tracker
+Project Title: 
+Rage & Romance - A Gamified Relationship Tracker
 
-Project Type:Frontend Web Application
+Project Type: Frontend Web Application( this is not to show skills, just a small vibe coding project)
 
 Project Overview:**
 Rage & Romance is an interactive, gamified web application built to help couples playfully track emotional ups and downs in their relationship. It allows users to log events that made them happy or upset, assign a score based on intensity, and maintain a running tally between two partners. The application presents a dual-column scorecard, a mood selector, witty messages, and persistent data storage to maintain logs across sessions.
 
 Tech Stack:
-- **HTML5**: Semantic structure with modular sections for scalable layout.
-- **CSS3**: Responsive dark-mode styling with neon-glow aesthetics, flexbox-based dual columns, and interactive hover effects.
-- **JavaScript (ES6)**: Handles DOM manipulation, screen transitions, mood logic, score calculations, and witty feedback.
-- **LocalStorage API**: Ensures all user inputs, scores, and logs persist even after refresh or revisiting.
+- HTML5 Semantic structure with modular sections for scalable layout.
+- CSS3: Responsive dark-mode styling with neon-glow aesthetics, flexbox-based dual columns, and interactive hover effects.
+- JavaScript: Handles DOM manipulation, screen transitions, mood logic, score calculations, and witty feedback.
+- LocalStorage API: Ensures all user inputs, scores, and logs persist even after refresh or revisiting.
 
 Key Features:
 - Clean, gamer-inspired UI with Orbitron font and glowing headers.
@@ -32,5 +33,5 @@ Outcome:
 The project demonstrates both technical frontend skills and a strong sense of user experience design. It showcases my ability to turn creative concepts into functional web applications with clean code, modern styling, and persistent data handling.
 
 
-GitHub Repository: (Add GitHub repo link here)
+
 
